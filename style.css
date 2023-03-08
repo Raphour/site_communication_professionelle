@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text&display=swap');
+
+:root{
+    --fond-principal : #18332E; 
+    --fond-secondaire : #182633;
+    --fond-tertiaire : #181933;
+    --texte-titre : #E4A72D;
+    --decorations : #9F2421;
+    --texte-principal : #EBEBEB;
+    --fond-image : #2B3844;
+
+    --police-titre : 'Fanwood Text', serif;
+    --police-texte : 'Mukta', sans-serif;
+}
+*{
+    margin : 0;
+    padding:0;
+}
+
+body{
+    background-color: #21453F;
+}
+.page {
+    display: flex;
+    flex-direction: column;
+    gap : 28px;
+}
+.carte{
+    display: flex;
+    flex-direction: row;
+    padding: 28px;
+    border-radius: 28px;
+    width: 70%;
+}
+.coteimg{
+    display: flex;
+    padding: 32px;
+    background : #2B3844;
+    border-radius: 15px 0px 0px 15px;
+    width: 70%;
+}
+.coteimg2{
+    display: flex;
+    padding: 32px;
+    background : var(--fond-tertiaire);
+    border-radius: 15px 0px 0px 15px;
+    width: 70%;
+}
+img{
+    width:100%;
+    border-radius: 15px;
+}
+.nomdescr{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--fond-secondaire);
+    border-radius: 0px 15px 15px 0px;
+    padding: 30px 32px 30px 38px;
+    width: 100%;
+}
+.partietexte{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.titreetoile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.titre{
+    font-family: var(--police-titre);
+    font-size: 32px;
+    color: var(--texte-titre);
+    font-size: 40px;
+}
+.etoile{
+    font-family: var(--police-titre);
+    color:var(--texte-titre);
+    font-size: 40px;
+}
+.descr{
+    font-family: var(--police-texte);
+    font-size: 20px;
+    color: var(--texte-principal);
+}
