@@ -85,3 +85,12 @@ img{
     font-size: 20px;
     color: var(--texte-principal);
 }
+.header{
+    color: #E4A72D;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    color:white 
+}
