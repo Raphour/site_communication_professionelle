@@ -25,10 +25,19 @@ body{
     display: flex;
     flex-direction: column;
     gap : 28px;
+    width: 100%;
 }
 .carte{
     display: flex;
     flex-direction: row;
+    padding: 28px;
+    border-radius: 28px;
+    width: 70%;
+}
+.cartesec{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
     padding: 28px;
     border-radius: 28px;
     width: 70%;
@@ -40,11 +49,11 @@ body{
     border-radius: 15px 0px 0px 15px;
     width: 70%;
 }
-.coteimg2{
+.coteimgsec{
     display: flex;
     padding: 32px;
-    background : var(--fond-tertiaire);
-    border-radius: 15px 0px 0px 15px;
+    background : #2B2C44;
+    border-radius: 0px 15px 15px 0px;
     width: 70%;
 }
 img{
@@ -56,6 +65,14 @@ img{
     flex-direction: column;
     background-color: var(--fond-secondaire);
     border-radius: 0px 15px 15px 0px;
+    padding: 30px 32px 30px 38px;
+    width: 100%;
+}
+.nomdescrsec{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--fond-tertiaire);
+    border-radius: 15px 0px 0px 15px;
     padding: 30px 32px 30px 38px;
     width: 100%;
 }
@@ -84,4 +101,12 @@ img{
     font-family: var(--police-texte);
     font-size: 20px;
     color: var(--texte-principal);
+}
+.bloccarte{
+    display: flex;
+    align-items: flex-start;
+}
+.bloccarted{
+    display: flex;
+    justify-content: flex-end;
 }
