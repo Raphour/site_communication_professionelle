@@ -138,3 +138,7 @@ nav.container ul{
     display: flex;
     flex-direction: row;
 }
+.bar{
+    box-sizing: border-box;
+    border-bottom: 5px solid #9F2421;
+}
