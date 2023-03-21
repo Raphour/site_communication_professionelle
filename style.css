@@ -88,7 +88,6 @@ img{
 }
 .titre{
     font-family: var(--police-titre);
-    font-size: 32px;
     color: var(--texte-titre);
     font-size: 40px;
 }
@@ -109,4 +108,29 @@ img{
 .bloccarted{
     display: flex;
     justify-content: flex-end;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 40px;
+    height:100px;
+}
+.nomsite{
+    color: var(--texte-titre);
+    font-size: 85px;
+    letter-spacing: 0.05em;
+}
+.contactetpropos{
+    align-self: last baseline;
+    display: flex;
+    flex-direction: row;
+    
+    color: var(--texte-titre);
+    gap : 30px;
+}
+nav.container ul{
+    display: flex;
+    flex-direction: row;
 }
