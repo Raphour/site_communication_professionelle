@@ -60,6 +60,31 @@ img{
     width:100%;
     border-radius: 15px;
 }
+
+a{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+}
+ul>li>a:visited {
+    text-decoration: none;
+}
+ul>li>a:hover {
+    text-decoration: none;
+}
+ul>li>a:active {
+    text-decoration: none;
+}
+ul>li>a {
+    text-decoration: none;
+}
 .nomdescr{
     display: flex;
     flex-direction: column;
@@ -110,6 +135,7 @@ img{
     justify-content: flex-end;
 }
 .header{
+    background-color: var(--fond-principal);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -117,7 +143,7 @@ img{
     padding-top: 29px;
     padding-right: 70px;
     font-size: 40px;
-    height:100px;
+    height:130px;
 }
 .nomsite{
     font-family: var(--police-titre);
@@ -135,8 +161,18 @@ img{
     gap : 50px;
 }
 nav.container ul{
+    font-family: var(--police-titre);
+    color: var(--texte-titre);
+    font-size: 40px;
     display: flex;
     flex-direction: row;
+    background-color: var(--fond-tertiaire);
+    height:65px;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 .bar{
     box-sizing: border-box;
