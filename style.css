@@ -242,7 +242,7 @@ nav.container ul{
 }
 }
 .imageName{
-    color : #33544e;
+    background: #33544e;
     display: flex;
     padding-top: 30px;
     text-align: center;
@@ -253,11 +253,40 @@ nav.container ul{
     width: 50%;
     align-self: center;
 }
-.titretoile{
-    display: flex;
-    flex-direction: row;
-}
 .imageName>.titre{
     font-size: 96px;
     text-align: center;
+}
+.imageName>.etoile{
+    padding-bottom: 20px;
+}
+.pageC{
+    padding: 64px;
+}
+.txt{
+    font-family: 'Mukta';
+    font-size: 32px;
+    letter-spacing: 0.05em;
+    color: #EBEBEB;
+}
+.imgp{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    font-family: 'Mukta';
+    font-size: 32px;
+    letter-spacing: 0.05em;
+    color: #EBEBEB;
+}
+.content1{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.txtetdessous{
+    flex-direction: column;
+    display: flex;
+    gap:50px;
 }
