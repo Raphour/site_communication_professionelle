@@ -139,7 +139,7 @@ a:active{
     flex-direction: row;
     justify-content: space-between;
     padding-left: 35px;
-    padding-top: 29px;
+
     padding-right: 70px;
     font-size: 40px;
     height:130px;
@@ -180,53 +180,57 @@ nav.container ul{
 
 
 .overlay {
-position: fixed;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-background: rgba(0, 0, 0, 0.7);
-transition: opacity 500ms;
-visibility: hidden;
-opacity: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
 }
 .overlay:target {
-visibility: visible;
-opacity: 1;
+    visibility: visible;
+    opacity: 1;
 }
 
 .popup {
     margin: 70px auto;
     padding: 20px;
     background: pink;
+    background-color: pink;
     border-radius: 10px;
     width: 30%;
     position: relative;
     display: flex;
-    
-    }
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
 
 .popup h2 {
-margin-top: 0;
-color: #333;
-font-family: Tahoma, Arial, sans-serif;
+    display: flex;
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
 }
 .popup .close {
-position: absolute;
-top: 20px;
-right: 30px;
-transition: all 200ms;
-font-size: 30px;
-font-weight: bold;
-text-decoration: none;
-color: #333;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
 }
 .popup .close:hover {
-color: #06D85F;
+    color: #06D85F;
 }
 .popup .content {
-max-height: 30%;
-overflow: auto;
+    max-height: 30%;
+    overflow: auto;
 }
 
 @media screen and (max-width: 700px){
@@ -236,4 +240,24 @@ overflow: auto;
 .popup{
     width: 70%;
 }
+}
+.imageName{
+    color : #33544e;
+    display: flex;
+    padding-top: 30px;
+    text-align: center;
+    flex-direction: column;
+    height: 40%;
+}
+.imageName>.image{
+    width: 50%;
+    align-self: center;
+}
+.titretoile{
+    display: flex;
+    flex-direction: row;
+}
+.imageName>.titre{
+    font-size: 96px;
+    text-align: center;
 }
