@@ -1,40 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fanwood+Text&display=swap');
 
-:root{
-    --fond-principal : #18332E; 
-    --fond-secondaire : #182633;
-    --fond-tertiaire : #181933;
-    --texte-titre : #E4A72D;
-    --decorations : #9F2421;
-    --texte-principal : #EBEBEB;
-    --fond-image : #2B3844;
+:root {
+    --fond-principal: #18332E;
+    --fond-secondaire: #182633;
+    --fond-tertiaire: #181933;
+    --texte-titre: #E4A72D;
+    --decorations: #9F2421;
+    --texte-principal: #EBEBEB;
+    --fond-image: #2B3844;
 
-    --police-titre : 'Fanwood Text', serif;
-    --police-texte : 'Mukta', sans-serif;
+    --police-titre: 'Fanwood Text', serif;
+    --police-texte: 'Mukta', sans-serif;
 }
-*{
-    margin : 0;
-    padding:0;
+html{
+    height: 100%;
+}
+body{  
+  min-height: 100%;
 }
 
-body{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
     background-color: #21453F;
 }
+
 .page {
     display: flex;
     flex-direction: column;
-    gap : 28px;
+    gap: 28px;
     width: 100%;
 }
-.carte{
+
+.carte {
     display: flex;
     flex-direction: row;
     padding: 28px;
     border-radius: 28px;
     width: 70%;
 }
-.cartesec{
+
+.cartesec {
     display: flex;
     justify-content: flex-end;
     flex-direction: row-reverse;
@@ -42,49 +52,58 @@ body{
     border-radius: 28px;
     width: 70%;
 }
-.coteimg{
+
+.coteimg {
     display: flex;
     padding: 32px;
-    background : #2B3844;
+    background: #2B3844;
     border-radius: 15px 0px 0px 15px;
     width: 70%;
 }
-.coteimgsec{
+
+.coteimgsec {
     display: flex;
     padding: 32px;
-    background : #2B2C44;
+    background: #2B2C44;
     border-radius: 0px 15px 15px 0px;
     width: 70%;
 }
-img{
-    width:100%;
+
+img {
+    width: 100%;
     border-radius: 15px;
 }
 
-a{
+a {
     text-decoration: none;
     color: var(--texte-titre);
 }
-a:visited{
+
+a:visited {
     text-decoration: none;
     color: var(--texte-titre);
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
     color: var(--texte-titre);
 }
-a:active{
+
+a:active {
     text-decoration: none;
     color: var(--texte-titre);
 }
-.cartesec>a{
+
+.cartesec>a {
     display: flex;
     flex-direction: row-reverse;
 }
-.carte>a{
+
+.carte>a {
     display: flex;
 }
-.nomdescr{
+
+.nomdescr {
     display: flex;
     flex-direction: column;
     background-color: var(--fond-secondaire);
@@ -92,7 +111,8 @@ a:active{
     padding: 30px 32px 30px 38px;
     width: 100%;
 }
-.nomdescrsec{
+
+.nomdescrsec {
     display: flex;
     flex-direction: column;
     background-color: var(--fond-tertiaire);
@@ -100,40 +120,48 @@ a:active{
     padding: 30px 32px 30px 38px;
     width: 100%;
 }
-.partietexte{
+
+.partietexte {
     display: flex;
     flex-direction: column;
     gap: 22px;
 }
-.titreetoile{
+
+.titreetoile {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.titre{
+
+.titre {
     font-family: var(--police-titre);
     color: var(--texte-titre);
     font-size: 40px;
 }
-.etoile{
+
+.etoile {
     font-family: var(--police-titre);
-    color:var(--texte-titre);
+    color: var(--texte-titre);
     font-size: 40px;
 }
-.descr{
+
+.descr {
     font-family: var(--police-texte);
     font-size: 20px;
     color: var(--texte-principal);
 }
-.bloccarte{
+
+.bloccarte {
     display: flex;
     align-items: flex-start;
 }
-.bloccarted{
+
+.bloccarted {
     display: flex;
     justify-content: flex-end;
 }
-.header{
+
+.header {
     background-color: var(--fond-principal);
     display: flex;
     flex-direction: row;
@@ -142,38 +170,46 @@ a:active{
 
     padding-right: 70px;
     font-size: 40px;
-    height:130px;
+    height: 130px;
 }
-.nomsite{
+
+.nomsite {
     font-family: var(--police-titre);
     color: var(--texte-titre);
     font-size: 85px;
     letter-spacing: 0.05em;
     align-self: last baseline;
 }
-.contactetpropos{
+
+.contactetpropos {
     font-family: var(--police-titre);
     display: flex;
     flex-direction: row;
     align-self: last baseline;
     color: var(--texte-titre);
-    gap : 50px;
+    gap: 50px;
 }
-nav.container ul{
+footer>.contactetpropos {
+    font-size: 40px;
+    align-self: center;
+}
+
+nav.container ul {
     font-family: var(--police-titre);
     color: var(--texte-titre);
     font-size: 40px;
     display: flex;
     flex-direction: row;
     background-color: var(--fond-tertiaire);
-    height:65px;
+    height: 65px;
     justify-content: space-around;
     align-items: center;
     list-style-type: none;
     padding-left: 300px;
     padding-right: 300px;
 }
-.bar{
+
+.bar {
     box-sizing: border-box;
     border-bottom: 5px solid #9F2421;
 }
@@ -190,6 +226,7 @@ nav.container ul{
     visibility: hidden;
     opacity: 0;
 }
+
 .overlay:target {
     visibility: visible;
     opacity: 1;
@@ -198,8 +235,8 @@ nav.container ul{
 .popup {
     margin: 70px auto;
     padding: 20px;
-    background: pink;
-    background-color: pink;
+    background: var(--fond-principal);
+    background-color: var(--fond-principal);
     border-radius: 10px;
     width: 30%;
     position: relative;
@@ -212,9 +249,15 @@ nav.container ul{
 .popup h2 {
     display: flex;
     margin-top: 0;
-    color: #333;
+    color: var(--texte-titre);
     font-family: Tahoma, Arial, sans-serif;
 }
+
+.popup>p{
+    font-size: 40px;
+    font-family: 'Mukta';
+}
+
 .popup .close {
     position: absolute;
     top: 20px;
@@ -225,23 +268,27 @@ nav.container ul{
     text-decoration: none;
     color: #333;
 }
+
 .popup .close:hover {
-    color: #06D85F;
+    color: var(--decorations);
 }
+
 .popup .content {
     max-height: 30%;
     overflow: auto;
 }
 
-@media screen and (max-width: 700px){
-.box{
-    width: 70%;
+@media screen and (max-width: 700px) {
+    .box {
+        width: 70%;
+    }
+
+    .popup {
+        width: 70%;
+    }
 }
-.popup{
-    width: 70%;
-}
-}
-.imageName{
+
+.imageName {
     background: #33544e;
     display: flex;
     padding-top: 30px;
@@ -249,27 +296,36 @@ nav.container ul{
     flex-direction: column;
     height: 40%;
 }
-.imageName>.image{
+
+.imageName>.image {
     width: 50%;
     align-self: center;
 }
-.imageName>.titre{
+
+.imageName>.titre {
     font-size: 96px;
     text-align: center;
 }
-.imageName>.etoile{
+.imageName> .image>img{
+    border-radius: 0px;
+}
+
+.imageName>.etoile {
     padding-bottom: 20px;
 }
-.pageC{
+
+.pageC {
     padding: 64px;
 }
-.txt{
+
+.txt {
     font-family: 'Mukta';
     font-size: 32px;
     letter-spacing: 0.05em;
     color: #EBEBEB;
 }
-.imgp{
+
+.imgp {
     text-align: center;
     align-items: center;
     display: flex;
@@ -280,13 +336,70 @@ nav.container ul{
     letter-spacing: 0.05em;
     color: #EBEBEB;
 }
-.content1{
+
+.content1 {
     display: flex;
     flex-direction: row;
     gap: 60px;
 }
-.txtetdessous{
+
+.txtetdessous {
     flex-direction: column;
     display: flex;
-    gap:50px;
+    gap: 50px;
+}
+footer {
+    display: flex;
+    background-color: var(--fond-principal);
+    padding-top: 25px;
+    padding-left: 125px;
+    padding-bottom: 25px;
+    padding-right: 125px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+footer>.textfooter {
+    color: var(--texte-titre);
+    font-size: 64px;
+}
+footer>.newsletter {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    color: var(--texte-titre);
+    font-size: 24px;
+}
+.inputnl>form>input[type=email] {
+    width: 400px;
+    height: 50px;
+    background-color: var(--texte-titre);
+    border: 2px solid var(--decorations);
+    border-radius: 10px;
+    padding-left: 10px;
+    color: var(--decorations);
+    font-size: 16px;
+    font-weight: 700;
+}
+.inputnl>form>input[type=email]:focus{
+    outline: none;
+}
+.inputnl>form>input[type=email]::placeholder {
+    color: var(--decorations);
+    font-size: 16px;
+    font-weight: 700;
+}
+.inputnl>form>input[type=submit] {
+    width: 150px;
+    height: 50px;
+    background-color: var(--texte-titre);
+    border: 2px solid var(--decorations);
+    border-radius: 10px;
+    color: var(--decorations);
+    font-size: 16px;
+    font-weight: 700;
 }
