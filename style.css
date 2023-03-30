@@ -377,11 +377,11 @@ footer>.newsletter {
 .inputnl>form>input[type=email] {
     width: 400px;
     height: 50px;
-    background-color: var(--texte-titre);
+    background-color: #21453F;
     border: 2px solid var(--decorations);
     border-radius: 10px;
     padding-left: 10px;
-    color: var(--decorations);
+    color: var(--texte-titre);
     font-size: 16px;
     font-weight: 700;
 }
@@ -389,17 +389,17 @@ footer>.newsletter {
     outline: none;
 }
 .inputnl>form>input[type=email]::placeholder {
-    color: var(--decorations);
+    color: var(--texte-titre);
     font-size: 16px;
     font-weight: 700;
 }
 .inputnl>form>input[type=submit] {
     width: 150px;
     height: 50px;
-    background-color: var(--texte-titre);
+    background-color: #21453F;
     border: 2px solid var(--decorations);
     border-radius: 10px;
-    color: var(--decorations);
+    color: var(--texte-titre);
     font-size: 16px;
     font-weight: 700;
 }
