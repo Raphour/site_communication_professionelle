@@ -73,6 +73,13 @@ img {
     width: 100%;
     border-radius: 15px;
 }
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
 
 a {
     text-decoration: none;
@@ -250,7 +257,7 @@ nav.container ul {
     display: flex;
     margin-top: 0;
     color: var(--texte-titre);
-    font-family: Tahoma, Arial, sans-serif;
+    font-family: 'Fanwood';
 }
 
 .popup>p{
@@ -266,7 +273,7 @@ nav.container ul {
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
-    color: #333;
+    color: var(--texte-titre);
 }
 
 .popup .close:hover {
@@ -323,6 +330,10 @@ nav.container ul {
     font-size: 32px;
     letter-spacing: 0.05em;
     color: #EBEBEB;
+}
+
+.soustxtmaps {
+    color: var(--texte-titre);
 }
 
 .imgp {
@@ -382,16 +393,18 @@ footer>.newsletter {
     border-radius: 10px;
     padding-left: 10px;
     color: var(--texte-titre);
-    font-size: 16px;
-    font-weight: 700;
+    font-family: 'Fanwood';
+    font-size: 20px;
+    font-weight: 500;
 }
 .inputnl>form>input[type=email]:focus{
     outline: none;
 }
 .inputnl>form>input[type=email]::placeholder {
     color: var(--texte-titre);
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Fanwood';
+    font-weight: 500;
 }
 .inputnl>form>input[type=submit] {
     width: 150px;
@@ -400,6 +413,7 @@ footer>.newsletter {
     border: 2px solid var(--decorations);
     border-radius: 10px;
     color: var(--texte-titre);
-    font-size: 16px;
-    font-weight: 700;
+    font-family: 'Fanwood';
+    font-size: 20px;
+    font-weight: 500;
 }
